@@ -8,4 +8,7 @@ int jian(int a,int b)
 }
 int mul(int c,int d){
 		return c*d;
+int div(int a,int b){
+                return a/b; 	
 }
+
