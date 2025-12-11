@@ -11,4 +11,9 @@ int mul(int c,int d){
 int div(int a,int b){
                 return a/b; 	
 }
-
+int main(){
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("%d %d %d %d",plus(a,b),jian(a,b),mul(a,b),div(a,b));
+	return 0;
+}
